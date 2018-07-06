@@ -1,0 +1,13 @@
+{% extends 'index.nunjucks' %}
+
+{% block main %}
+<section class="col-sm-6">
+  <form action="" method="POST">
+    <label for="withdraw-amount">Amount to be withdrawn:</label><br>
+    <input type="number" id="withdraw-amount" name="withdraw-amount">
+
+    <button type="submit">withdraw</button>
+    <button type="reset">clear</button>
+  </form>
+</section>
+{% endblock %}

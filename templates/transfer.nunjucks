@@ -1,0 +1,14 @@
+{% extends 'index.nunjucks' %}
+
+{% block main %}
+  <form>
+    <input type="radio" name="transfer" value="checking-savings" checked>transfer from checking to savings<br>
+    <input type="radio" name="transfer" value="savings-checking">transfer from savings to checking<br>
+
+    <label for="transfer-amount">Amount to be transferred:</label><br>
+    <input type="number" id="transfer-amount" name="transfer-amount">
+
+    <button type="submit">transfer</button>
+    <button type="reset">clear</button>
+  </form>
+{% endblock %}

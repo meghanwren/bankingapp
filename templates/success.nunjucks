@@ -1,0 +1,5 @@
+{% extends 'index.nunjucks' %}
+
+{% block message %}
+transaction successful!
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'index.nunjucks' %}
+
+{% block main %}
+<section class="col-sm-6">
+  <form action="" method="POST">
+    <label for="new">Amount to be deposit upon opening new account:</label><br>
+    <input type="number" id="new" name="new">
+
+    <button type="submit">open</button>
+    <button type="reset">clear</button>
+  </form>
+</section>
+{% endblock %}
