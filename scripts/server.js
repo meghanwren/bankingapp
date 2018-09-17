@@ -1,6 +1,3 @@
-//Hi Fred! I haven't quite finished this banking app, still need to style and figure out how to use the findoneandupdate
-//function from mongodb, but I'm excited to make the c# one so I'll get back to this after! 
-
 const express = require('express');
 const mongodb = require('mongodb');
 const nunjucks = require('nunjucks');
